@@ -7,10 +7,8 @@ function play(){
   console.log(i.src)
     if (i.src === "Piano Bear Idle.png") {
       i.src = "Piano Bear Play.png";
-      console.log("Inside IF")
     }
     else {
       i.src = "Piano Bear Idle.png";
-      console.log("Outside IF")
     }
 }
