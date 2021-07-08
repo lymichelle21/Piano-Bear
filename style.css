@@ -15,6 +15,10 @@ h2{
   width: 95%;
 }
 
+.bear{
+  text-align: center;
+}
+
 button {
   border-radius: 3px;
   padding: 18px;
@@ -29,9 +33,15 @@ button {
 .pink{
   background: rgb(254,108,212);
 }
+
+.orange{
+  background:rgb(255,172,102)
+}
+
 .text{
   color: white;
   font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
 
 .center{
@@ -83,5 +93,13 @@ footer{
 }
 
 #profile-img{
+  max-width: 70%;
+}
+
+.guide{
+  text-align: center;
+}
+
+#guide-img{
   max-width: 70%;
 }

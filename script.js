@@ -66,13 +66,13 @@ document.addEventListener('keydown', function(e){
 });
 
 function down(){
-  var i = document.getElementById("img1");
+  var i = document.getElementById("piano-bear-img");
   if (i.src.includes("Piano%20Bear%20Idle.png"))
     i.src = "Piano Bear Play.png";
 }
 
 function up(){
-  var i = document.getElementById("img1");
+  var i = document.getElementById("piano-bear-img");
   if (i.src.includes("Piano%20Bear%20Play.png"))
     i.src = "Piano Bear Idle.png";
 }
