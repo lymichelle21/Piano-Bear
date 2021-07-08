@@ -1,17 +1,87 @@
 
 h1 {
-  color: rgb(254,108,212);
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 45px;;
 }
 
-img {
-  width: 80%;
+h2{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;;
+}
+
+#piano-bear-img {
+  width: 95%;
 }
 
 button {
   border-radius: 3px;
-  padding: 8px;
+  padding: 18px;
   font-size: 100%;
   cursor: pointer;
+  background: rgb(175,130,237);
+  border: none;
+  margin-top: 5px;
+  margin: 15px;
+}
+
+.pink{
+  background: rgb(254,108,212);
+}
+.text{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.center{
+  text-align: center;
+}
+
+p{
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+
+footer{
+  color: black;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 20px;
+}
+
+.underline{
+  background:
+    linear-gradient(to right, rgb(126, 106, 18, 0), rgb(211, 120, 1,0)),
+    linear-gradient(to right, rgb(143,229,255), rgb(143,229,255));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.underline:hover,
+.underline:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+.page {
+  padding: 40px;
+  padding-left: 50px;
+  text-align: left;
+  background-image: linear-gradient(to bottom, rgb(254,108,212), rgb(255,172,102), rgb(143,229,255));
+}
+
+.description{
+  text-align: center;
+}
+
+.profile{
+  text-align: center;
+}
+
+#profile-img{
+  max-width: 70%;
 }
