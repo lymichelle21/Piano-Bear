@@ -5,6 +5,21 @@ h1 {
   font-size: 45px;;
 }
 
+.header{
+  background:
+    linear-gradient(to right, rgb(126, 106, 18, 0), rgb(211, 120, 1,0)),
+    linear-gradient(to right, rgb(175,130,237), rgb(143,229,255));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.header:hover,
+.header:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
 h2{
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -41,6 +56,11 @@ button {
 .text{
   color: white;
   font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.links{
+  color: rgb(175,130,237);
   text-decoration: none;
 }
 
