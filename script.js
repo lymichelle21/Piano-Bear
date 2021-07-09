@@ -1,17 +1,31 @@
 var button = $('.play-btn');
 
+const keys = []
+//time = 0
+
+/*function queueKeys(fileName) {
+  if (!keys.includes(fileName)) {
+    keys.push(fileName);
+    playAudio(fileName);
+    time += 2.5;
+  }
+  // grab current time
+  // calculate time elapsed
+  // once that's > time, up() function
+}*/
+
+
 function playAudio(fileName) {
+  console.log(fileName);
   var audio = new Audio(fileName);
   audio.play();
   down();
-  console.log("DOWN")
   setInterval(function(){
-    if (audio.currentTime>=2.5) {
+    if (audio.currentTime>=0.25) {
       audio.pause();
-      console.log("Pause")
       up();
-      console.log("UP")
       audio.currentTime=0;
+      //keys.shift();
     }
   })
 }
@@ -63,6 +77,7 @@ document.addEventListener('keydown', function(e){
 
   if (e.keyCode in dict)
     playAudio(dict[e.keyCode]);
+
 });
 
 function down(){
