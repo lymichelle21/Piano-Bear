@@ -27,7 +27,8 @@ h2{
 }
 
 #piano-bear-img {
-  width: 95%;
+  max-width: 70%;
+  margin-top: -50px;
 }
 
 .bear{
@@ -122,4 +123,10 @@ footer{
 
 #guide-img{
   max-width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  #piano-bear-img {
+    margin-top: 0px;
+  }
 }

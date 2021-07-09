@@ -1,19 +1,6 @@
 var button = $('.play-btn');
 
 const keys = []
-//time = 0
-
-/*function queueKeys(fileName) {
-  if (!keys.includes(fileName)) {
-    keys.push(fileName);
-    playAudio(fileName);
-    time += 2.5;
-  }
-  // grab current time
-  // calculate time elapsed
-  // once that's > time, up() function
-}*/
-
 
 function playAudio(fileName) {
   console.log(fileName);
@@ -25,7 +12,6 @@ function playAudio(fileName) {
       audio.pause();
       up();
       audio.currentTime=0;
-      //keys.shift();
     }
   })
 }
