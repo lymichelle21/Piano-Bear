@@ -109,12 +109,18 @@ footer{
   text-align: center;
 }
 
+.description > p {
+    width: 80%;
+    margin: auto;
+}
+
 .profile{
   text-align: center;
 }
 
 #profile-img{
   max-width: 70%;
+  width: 450px;
 }
 
 .guide{
